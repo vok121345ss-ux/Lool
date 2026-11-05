@@ -1,0 +1,22 @@
+{
+  "geode": "5.11.2",
+  "gd": {
+    "win": "2.2081",
+    "android": "2.2081",
+    "mac": "2.2081",
+    "ios": "2.2081"
+  },
+  "id": "lol.lol",
+  "name": "lol",
+  "version": "v1.0.0",
+  "developer": "user",
+  "description": "Noclip, speedhack, replay/macro bot, unlock all, instant respawn.",
+  "settings": {
+    "noclip": { "type": "bool", "default": false, "name": "Noclip", "description": "Не умирать от препятствий." },
+    "speed-enabled": { "type": "bool", "default": false, "name": "Speedhack", "description": "Включить изменение скорости игры." },
+    "speed": { "type": "float", "default": 1.0, "min": 0.05, "max": 10.0, "name": "Скорость", "description": "Множитель скорости (1.0 = норма).", "control": { "input": true, "slider": true } },
+    "instant-respawn": { "type": "bool", "default": false, "name": "Instant respawn", "description": "Мгновенный респавн после смерти." },
+    "unlock-all": { "type": "bool", "default": false, "name": "Unlock all", "description": "Все иконки и цвета открыты." },
+    "safe-mode": { "type": "bool", "default": true, "name": "Safe mode", "description": "Не сохранять прогресс уровня, пока активны noclip / speed / replay." }
+  }
+}
